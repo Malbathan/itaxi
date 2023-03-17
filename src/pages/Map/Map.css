@@ -1,0 +1,7 @@
+.chakra-text:nth-child(3) {
+  margin-left: auto!important;
+}
+
+.chakra-radio__label {
+  width: 100%;
+}
