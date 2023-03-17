@@ -1,11 +1,11 @@
-import './App.css';
-import Map from './pages/Map';
+import { ChakraProvider, theme } from '@chakra-ui/react'
+import Map from './pages/Map/Map';
 
 function App() {
   return (
-    <div className="App">
+    <ChakraProvider theme={theme}>
       <Map />
-    </div>
+    </ChakraProvider>
   );
 }
 
